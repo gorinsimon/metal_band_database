@@ -1,2 +1,5 @@
-# metal_band_database
-Data on metal bands around the world and code to collect the data
+# Metal bands database
+
+This repository contains the code I used to create a database of metal bands around the world using web scraping on the [Spirit of Metal] site (https://www.spirit-of-metal.com/). The database that was generated is in the `data` folder. There are two files so far: `metal_band_database_2022-03-27.csv` is the original database created and `metal_band_database_clean_2022-03-31.csv` is a cleaned up version of the database (the same as the original version but stripped of some unnecessary rows containing html information left over from web scrapping). The main script used to create the database is `create_band_database.R` and it uses an additional custom function located in `functions/collect_bands_info.R`).
+
+If you need more information about the code used to generate the database, feel free to have a look at the comments in the main script or to contact me.
